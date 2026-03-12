@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="980" viewBox="0 0 1400 980">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#3c4a57"/>
+    </marker>
+    <style>
+      .title { font: 700 28px 'Times New Roman', serif; fill: #17344d; }
+      .label { font: 600 18px 'Times New Roman', serif; fill: #17344d; }
+      .small { font: 500 15px 'Times New Roman', serif; fill: #17344d; }
+      .sources { fill: #eef6ff; stroke: #2e6198; stroke-width: 2.3; rx: 14; ry: 14; }
+      .layer { fill: #f4fbf1; stroke: #4f8a43; stroke-width: 2.3; rx: 14; ry: 14; }
+      .analytics { fill: #fff5e8; stroke: #b87b17; stroke-width: 2.3; rx: 14; ry: 14; }
+      .output { fill: #f8edf7; stroke: #914f86; stroke-width: 2.3; rx: 14; ry: 14; }
+      .govern { fill: #f2f2f2; stroke: #626c76; stroke-width: 2.3; rx: 14; ry: 14; }
+      .arrow { stroke: #3c4a57; stroke-width: 3; fill: none; marker-end: url(#arrow); }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="1400" height="980" fill="#ffffff"/>
+  <text x="700" y="50" text-anchor="middle" class="title">ShopEase Big Data Analytics Architecture</text>
+
+  <rect x="40" y="120" width="220" height="90" class="sources"/>
+  <text x="150" y="160" text-anchor="middle" class="label">Transactions</text>
+  <text x="150" y="185" text-anchor="middle" class="small">Orders, payments, returns</text>
+
+  <rect x="300" y="120" width="220" height="90" class="sources"/>
+  <text x="410" y="160" text-anchor="middle" class="label">Digital Behavior</text>
+  <text x="410" y="185" text-anchor="middle" class="small">App and web clickstream</text>
+
+  <rect x="560" y="120" width="220" height="90" class="sources"/>
+  <text x="670" y="160" text-anchor="middle" class="label">CRM and Service</text>
+  <text x="670" y="185" text-anchor="middle" class="small">Tickets, chat, email, calls</text>
+
+  <rect x="820" y="120" width="220" height="90" class="sources"/>
+  <text x="930" y="160" text-anchor="middle" class="label">Supply Chain</text>
+  <text x="930" y="185" text-anchor="middle" class="small">Warehouse and logistics events</text>
+
+  <rect x="1080" y="120" width="280" height="90" class="sources"/>
+  <text x="1220" y="160" text-anchor="middle" class="label">External and Unstructured Data</text>
+  <text x="1220" y="185" text-anchor="middle" class="small">Reviews, social media, seller signals</text>
+
+  <rect x="260" y="275" width="880" height="90" class="layer"/>
+  <text x="700" y="317" text-anchor="middle" class="label">Ingestion Layer</text>
+  <text x="700" y="342" text-anchor="middle" class="small">Batch ETL, streaming events, APIs, connectors, message queues</text>
+
+  <line x1="150" y1="210" x2="360" y2="275" class="arrow"/>
+  <line x1="410" y1="210" x2="520" y2="275" class="arrow"/>
+  <line x1="670" y1="210" x2="660" y2="275" class="arrow"/>
+  <line x1="930" y1="210" x2="850" y2="275" class="arrow"/>
+  <line x1="1220" y1="210" x2="1040" y2="275" class="arrow"/>
+
+  <rect x="240" y="420" width="920" height="220" class="layer"/>
+  <text x="700" y="458" text-anchor="middle" class="label">Lakehouse and Data Management Layer</text>
+  <rect x="285" y="495" width="180" height="110" class="sources"/>
+  <text x="375" y="540" text-anchor="middle" class="label">Raw Zone</text>
+  <text x="375" y="565" text-anchor="middle" class="small">Native source data</text>
+  <rect x="495" y="495" width="180" height="110" class="sources"/>
+  <text x="585" y="540" text-anchor="middle" class="label">Cleansed Zone</text>
+  <text x="585" y="565" text-anchor="middle" class="small">Quality-checked records</text>
+  <rect x="705" y="495" width="180" height="110" class="sources"/>
+  <text x="795" y="540" text-anchor="middle" class="label">Curated Zone</text>
+  <text x="795" y="565" text-anchor="middle" class="small">Business-ready marts</text>
+  <rect x="915" y="495" width="200" height="110" class="sources"/>
+  <text x="1015" y="540" text-anchor="middle" class="label">Feature and NLP Store</text>
+  <text x="1015" y="565" text-anchor="middle" class="small">Model features and text corpus</text>
+
+  <line x1="700" y1="365" x2="700" y2="420" class="arrow"/>
+
+  <rect x="180" y="705" width="480" height="125" class="analytics"/>
+  <text x="420" y="748" text-anchor="middle" class="label">Analytics and ML Layer</text>
+  <text x="420" y="776" text-anchor="middle" class="small">Descriptive analytics, predictive models, optimization, NLP</text>
+  <text x="420" y="801" text-anchor="middle" class="small">Churn, demand, delays, pricing, complaint intelligence</text>
+
+  <rect x="740" y="705" width="500" height="125" class="output"/>
+  <text x="990" y="748" text-anchor="middle" class="label">Serving and Action Layer</text>
+  <text x="990" y="776" text-anchor="middle" class="small">Dashboards, CRM triggers, inventory planning, operations alerts</text>
+  <text x="990" y="801" text-anchor="middle" class="small">CXO view, service escalation, reputation monitoring</text>
+
+  <line x1="580" y1="640" x2="420" y2="705" class="arrow"/>
+  <line x1="820" y1="640" x2="420" y2="705" class="arrow"/>
+  <line x1="1015" y1="605" x2="990" y2="705" class="arrow"/>
+  <line x1="660" y1="768" x2="740" y2="768" class="arrow"/>
+
+  <rect x="40" y="875" width="1320" height="65" class="govern"/>
+  <text x="700" y="914" text-anchor="middle" class="label">Governance Fabric: security, privacy, metadata, lineage, quality rules, role-based access, monitoring</text>
+</svg>

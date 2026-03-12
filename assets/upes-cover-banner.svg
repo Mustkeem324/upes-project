@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="520" viewBox="0 0 1400 520">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f6f9fc"/>
+      <stop offset="50%" stop-color="#eaf2fb"/>
+      <stop offset="100%" stop-color="#fdf7ef"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#17344d"/>
+      <stop offset="100%" stop-color="#315f86"/>
+    </linearGradient>
+    <style>
+      .title { font: 700 34px 'Times New Roman', serif; fill: #17344d; }
+      .subtitle { font: 600 22px 'Times New Roman', serif; fill: #31516d; }
+      .small { font: 500 18px 'Times New Roman', serif; fill: #31516d; }
+      .quote { font: italic 22px 'Times New Roman', serif; fill: #5b4b2a; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="1400" height="520" fill="url(#bg)"/>
+  <rect x="80" y="70" width="1240" height="380" rx="28" ry="28" fill="#ffffff" stroke="url(#accent)" stroke-width="3"/>
+  <rect x="120" y="110" width="8" height="300" fill="#17344d"/>
+  <circle cx="1210" cy="135" r="46" fill="#eaf2fb" stroke="#315f86" stroke-width="2"/>
+  <circle cx="1260" cy="195" r="22" fill="#f4e7cf"/>
+  <circle cx="1165" cy="220" r="18" fill="#dbe8f5"/>
+  <path d="M1030 360 C1090 300, 1180 300, 1240 360" fill="none" stroke="#d3a85c" stroke-width="4"/>
+  <path d="M1060 385 C1120 335, 1180 335, 1220 385" fill="none" stroke="#315f86" stroke-width="3"/>
+
+  <text x="180" y="165" class="title">University of Petroleum and Energy Studies (UPES)</text>
+  <text x="180" y="205" class="subtitle">Dehradun, Uttarakhand</text>
+  <text x="180" y="265" class="title">Integrated Assignment</text>
+  <text x="180" y="305" class="subtitle">MBA Business Analytics | Semester IV</text>
+  <text x="180" y="345" class="subtitle">Integrated Assignment (A - Sem 4) - BA</text>
+  <text x="180" y="385" class="small">Strategic Transformation of ShopEase India Pvt. Ltd.</text>
+  <text x="180" y="430" class="quote">"In God we trust. All others must bring data."</text>
+</svg>

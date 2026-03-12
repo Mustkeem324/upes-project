@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820" viewBox="0 0 1400 820">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#3b4958"/>
+    </marker>
+    <style>
+      .title { font: 700 28px 'Times New Roman', serif; fill: #18324a; }
+      .label { font: 600 18px 'Times New Roman', serif; fill: #18324a; }
+      .small { font: 500 15px 'Times New Roman', serif; fill: #18324a; }
+      .src { fill: #edf5ff; stroke: #2f6396; stroke-width: 2.3; rx: 14; ry: 14; }
+      .prep { fill: #eef9ef; stroke: #4b8c46; stroke-width: 2.3; rx: 14; ry: 14; }
+      .model { fill: #fff6e8; stroke: #b57a18; stroke-width: 2.3; rx: 14; ry: 14; }
+      .out { fill: #f7ecf7; stroke: #95518a; stroke-width: 2.3; rx: 14; ry: 14; }
+      .arrow { stroke: #3b4958; stroke-width: 3; fill: none; marker-end: url(#arrow); }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="1400" height="820" fill="#ffffff"/>
+  <text x="700" y="50" text-anchor="middle" class="title">ShopEase NLP Workflow for Customer Feedback Intelligence</text>
+
+  <rect x="60" y="120" width="190" height="80" class="src"/>
+  <text x="155" y="158" text-anchor="middle" class="label">Reviews</text>
+  <text x="155" y="181" text-anchor="middle" class="small">Product and service text</text>
+  <rect x="60" y="225" width="190" height="80" class="src"/>
+  <text x="155" y="263" text-anchor="middle" class="label">Chat Logs</text>
+  <text x="155" y="286" text-anchor="middle" class="small">Bot and live-agent dialogs</text>
+  <rect x="60" y="330" width="190" height="80" class="src"/>
+  <text x="155" y="368" text-anchor="middle" class="label">Emails</text>
+  <text x="155" y="391" text-anchor="middle" class="small">Complaints and escalations</text>
+  <rect x="60" y="435" width="190" height="80" class="src"/>
+  <text x="155" y="473" text-anchor="middle" class="label">Social Media</text>
+  <text x="155" y="496" text-anchor="middle" class="small">Public sentiment and mentions</text>
+  <rect x="60" y="540" width="190" height="80" class="src"/>
+  <text x="155" y="578" text-anchor="middle" class="label">Call Transcripts</text>
+  <text x="155" y="601" text-anchor="middle" class="small">Speech-to-text service history</text>
+
+  <rect x="350" y="210" width="270" height="290" class="prep"/>
+  <text x="485" y="255" text-anchor="middle" class="label">Text Preparation</text>
+  <text x="485" y="290" text-anchor="middle" class="small">Language detection</text>
+  <text x="485" y="320" text-anchor="middle" class="small">Cleaning and normalization</text>
+  <text x="485" y="350" text-anchor="middle" class="small">Tokenization and embeddings</text>
+  <text x="485" y="380" text-anchor="middle" class="small">PII masking and deduplication</text>
+  <text x="485" y="410" text-anchor="middle" class="small">Metadata linking to orders and regions</text>
+
+  <line x1="250" y1="160" x2="350" y2="250" class="arrow"/>
+  <line x1="250" y1="265" x2="350" y2="285" class="arrow"/>
+  <line x1="250" y1="370" x2="350" y2="335" class="arrow"/>
+  <line x1="250" y1="475" x2="350" y2="390" class="arrow"/>
+  <line x1="250" y1="580" x2="350" y2="450" class="arrow"/>
+
+  <rect x="710" y="170" width="290" height="370" class="model"/>
+  <text x="855" y="215" text-anchor="middle" class="label">Model Layer</text>
+  <text x="855" y="255" text-anchor="middle" class="small">Sentiment analysis</text>
+  <text x="855" y="290" text-anchor="middle" class="small">Aspect-based sentiment</text>
+  <text x="855" y="325" text-anchor="middle" class="small">Complaint classification</text>
+  <text x="855" y="360" text-anchor="middle" class="small">Entity and issue extraction</text>
+  <text x="855" y="395" text-anchor="middle" class="small">Topic detection and clustering</text>
+  <text x="855" y="430" text-anchor="middle" class="small">Urgency and escalation scoring</text>
+  <text x="855" y="465" text-anchor="middle" class="small">Summarization for managers</text>
+
+  <line x1="620" y1="355" x2="710" y2="355" class="arrow"/>
+
+  <rect x="1080" y="120" width="250" height="90" class="out"/>
+  <text x="1205" y="160" text-anchor="middle" class="label">Service Triage</text>
+  <text x="1205" y="183" text-anchor="middle" class="small">Faster routing and prioritization</text>
+  <rect x="1080" y="250" width="250" height="90" class="out"/>
+  <text x="1205" y="290" text-anchor="middle" class="label">Reputation Alerts</text>
+  <text x="1205" y="313" text-anchor="middle" class="small">Early detection of public risk</text>
+  <rect x="1080" y="380" width="250" height="90" class="out"/>
+  <text x="1205" y="420" text-anchor="middle" class="label">CXO Insight Summaries</text>
+  <text x="1205" y="443" text-anchor="middle" class="small">Themes, severity, trend shifts</text>
+  <rect x="1080" y="510" width="250" height="90" class="out"/>
+  <text x="1205" y="550" text-anchor="middle" class="label">Root Cause Analysis</text>
+  <text x="1205" y="573" text-anchor="middle" class="small">Link complaints to operations data</text>
+
+  <line x1="1000" y1="235" x2="1080" y2="165" class="arrow"/>
+  <line x1="1000" y1="315" x2="1080" y2="295" class="arrow"/>
+  <line x1="1000" y1="395" x2="1080" y2="425" class="arrow"/>
+  <line x1="1000" y1="475" x2="1080" y2="555" class="arrow"/>
+
+  <text x="700" y="740" text-anchor="middle" class="small">NLP converts large volumes of customer text into structured, actionable business intelligence.</text>
+</svg>
