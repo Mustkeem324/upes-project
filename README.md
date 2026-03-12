@@ -1588,7 +1588,6 @@ To further strengthen this assignment for evaluation, you can add the following 
 - Convert to PDF only.
 - Apply Times New Roman, font size 11 or 12.
 - Check that Mermaid diagrams are rendered or replaced with images.
-- Add your name, roll number, and section.
+- Add your name, SAP ID, and contact details correctly.
 - Review wording and personalize where needed.
 - Run plagiarism and formatting checks before uploading to LMS.
-
